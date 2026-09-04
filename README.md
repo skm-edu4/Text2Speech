@@ -1,23 +1,32 @@
-# Efficient Text-to-Speech Engine
+# 🎙️ Text2Speech
 
-A lightweight, fast, and high-quality Text-to-Speech system powered by Microsoft's Edge-TTS. It features smart auto-naming, batch processing, and a built-in modern web interface.
+A lightweight, fast, and high-quality Text-to-Speech application powered by Microsoft's Edge-TTS. It features smart auto-naming, batch processing, and a beautiful built-in web interface. 
 
-## Features
-
-- ✅ **Zero Local Storage**: No massive model files to download (~0MB footprint).
-- ✅ **High Quality**: Near-human, expressive voice quality (powered by Microsoft Azure voices).
-- ✅ **Smart Auto-Naming**: Automatically names output files based on the first few words of the text (e.g., `Hello_world_I_am.mp3`).
-- ✅ **Batch Processing**: Easily convert entire text files into multiple organized audio clips with one command.
-- ✅ **Web Interface**: Built-in, beautiful dark-mode UI for easy generation, playback, and downloading.
-- ✅ **Easy to Use**: Simple Python API, CLI, and Web UI out of the box.
-
-*(Note: Because it uses Edge-TTS, an active internet connection is required for synthesis.)*
+**No heavy local models to download. No complex C++ dependencies. Just pure, high-quality audio generation.**
 
 ---
 
-## Installation
+## ✨ Features
 
-### 1. Clone or Download the project
+- ✅ **Zero Local Storage**: No massive model files (~0MB footprint).
+- ✅ **High Quality**: Near-human, expressive voice quality (powered by Microsoft Azure voices).
+- ✅ **Smart Auto-Naming**: Automatically names output files based on the first few words (e.g., `Hello_world_I_am.mp3`).
+- ✅ **Batch Processing**: Convert entire text files into multiple organized audio clips with one click.
+- ✅ **Cross-Platform**: Works flawlessly on Windows, macOS, and Linux.
+- ✅ **Dual Interface**: Use the modern Web UI or the Command Line Interface (CLI).
+
+*(Note: An active internet connection is required for synthesis.)*
+
+---
+
+## 🚀 Quick Start (One-Command Setup)
+
+### Prerequisites
+- [Python 3.8 or higher](https://www.python.org/downloads/) installed.
+- `pip` (Python package installer).
+
+### Step 1: Download the Project
+Clone the repository or download the ZIP file and extract it.
 ```bash
-git clone <https://github.com/skm-edu4/Text2Speech.git>
+git clone https://github.com/your-username/Text2Speech.git
 cd Text2Speech

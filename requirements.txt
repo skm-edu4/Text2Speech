@@ -1,12 +1,10 @@
-# requirements.txt - Project Dependencies
+# Core TTS Engine
+edge-tts>=6.1.0
 
-# Piper TTS (includes onnxruntime)
-edge-tts>=7.2.0
-
-# Configuration parsing
+# Configuration & Utilities
 pyyaml>=6.0
 
-# Optional: For web API (uncomment if needed)
+# Web Interface (FastAPI)
 fastapi>=0.104.0
 uvicorn>=0.24.0
-python-multipart
+python-multipart>=0.0.6
