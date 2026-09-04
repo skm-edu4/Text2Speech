@@ -19,5 +19,5 @@ A lightweight, fast, and high-quality Text-to-Speech system powered by Microsoft
 
 ### 1. Clone or Download the project
 ```bash
-git clone <your-repo-url>
+git clone <https://github.com/skm-edu4/Text2Speech.git>
 cd Text2Speech
