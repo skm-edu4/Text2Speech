@@ -1,0 +1,7 @@
+output:
+  directory: "./output"
+
+logging:
+  level: "INFO"            # DEBUG, INFO, WARNING, ERROR
+  save_to_file: false
+  log_file: "./logs/tts.log"
