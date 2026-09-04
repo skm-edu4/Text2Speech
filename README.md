@@ -206,6 +206,3 @@ logging:
 - **Engine**: [Edge-TTS](https://github.com/rany2/edge-tts) (Uses Microsoft Azure's free TTS endpoints).
 - **Web Framework**: [FastAPI](https://fastapi.tiangolo.com/) & [Uvicorn](https://www.uvicorn.org/).
 - **License**: MIT License.
-```
-
-***
